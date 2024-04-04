@@ -18,54 +18,36 @@
 
 // div.innerHTML = totalNum;
 
-
-
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
 
 /////////////// 1 topshiriq
 
-// my_list = ["home", "joke", "laptop", "table", "chair", "book"];
-// last_element_length = my_list[my_list.length - 1].length;
-// console.log(last_element_length);
+array = ["home", "joke", "laptop", "table", "chair", "book"];
+array_length = array[array.length - 1].length;
+console.log("array length:", array_length);
 
 ////////////// 2 topshiriq
 
-// input_string = "1.1.1.2.3.4;";
-// output_string = input_string.replaceAll(".", "[.]");
-// console.log(output_string);
+input = "1.1.1.2.3.4;";
+output = input.replaceAll(".", "[.]");
+console.log(output);
 
 /////////////// 3 topshiriq
 
-// let obj = {
-//   1: "Home",
-//   2: "Joke",
-//   3: "Laptop",
-//   4: "Table",
-// };
+let obj = {
+  1: "Home",
+  2: "Joke",
+  3: "Laptop",
+  4: "Table",
+};
 
-// let allKeys = Object.keys(obj).length;
-// console.log(allKeys);
-
-
+let objKeys = Object.keys(obj).length;
+console.log("object keys length :", objKeys);
 
 //////////////// 4 topshiriq
 
+function factorial(n) {
+  return n != 1 ? n * factorial(n - 1) : 1;
+}
 
-
-// function factorial(n) {
-//   return n != 1 ? n * factorial(n - 1) : 1;
-// }
-
-// alert(factorial(5));
+alert(factorial(5));
